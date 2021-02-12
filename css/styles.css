@@ -1,0 +1,125 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+}
+.container {
+    background: #3d7437;
+    height: 745px;
+    position: relative;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    text-align: center;
+}
+.green {
+    background: #579747;
+    background: linear-gradient(#4faa39 9%,
+        #6cc257 9%, #6cc257 18%,
+        #4faa39 18%, #4faa39 27%,
+        #6cc257 27%, #6cc257 36%,
+        #4faa39 36%, #4faa39 45%,
+        #6cc257 45%, #6cc257 54%,
+        #4faa39 54%, #4faa39 63%,
+        #6cc257 63%, #6cc257 72%,
+        #4faa39 72%, #4faa39 81%,
+        #6cc257 81%, #6cc257 90%,
+        #4faa39 90%);
+    border-radius: 320px 275px 350px 280px;
+    left: 50%;
+    position: absolute;
+    top: 375px;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 510px;
+}
+.hole {
+    background: #444;
+    border-radius: 50%;
+    box-shadow: inset 0 10px 5px black;
+    height: 35px;
+    left: 600px;
+    position: absolute;
+    top: 252px;
+    transform: translate(-50%, -50%);
+    width: 35px;
+}
+.ball {
+    background: white;
+    border-radius: 50%;
+    box-shadow: inset 0 -5px 3px rgba(0,0,0,0.6);
+    height: 20px;
+    left: 100px;
+    position: absolute;
+    top: 242px;
+    width: 20px;
+}
+form {
+    bottom: 25px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 500px;
+}
+.field {
+    float: left;
+    text-align: center;
+    width: 200px;
+}
+label {
+    color: white;
+    display: inline-block;
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+}
+.distance-supplied {
+    background: #fafad2;
+    border: solid 1px black;
+    border-left: none;
+    font-size: 1rem;
+    height: 37px;
+    padding: 5px 10px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+}
+.buttons {
+    height: 60px;
+    float: right;
+    padding-left: 20px;
+    padding-top: 23px;
+    width: 300px;
+}
+.putt-button,
+.try-again {
+    background: dodgerblue;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px rgb(20,20,30);
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.125rem;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    width: 100px;
+}
+.putt-button {
+    letter-spacing: 0.5px;
+}
+.try-again {
+    background: #ff9800;
+    color: black;
+    float: right;
+    margin-left: 15px;
+}
